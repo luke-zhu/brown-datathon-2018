@@ -2,7 +2,7 @@
   "name": "webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://luke-zhu.github.io/brown-hackathon-2018",
+  "homepage": "https://luke-zhu.github.io/brown-datathon-2018/",
   "dependencies": {
     "axios": "^0.18.0",
     "chart.js": "^2.7.2",
