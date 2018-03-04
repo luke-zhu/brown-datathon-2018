@@ -86,7 +86,7 @@ class App extends Component {
 
     let label = '';
     switch (this.props.data.datasets[0].label) {
-      case 'Store 200':
+      case 'Store 100':
         label = <Typography variant="headline" component="h3" style={{color: 'red'}}>Anomaly</Typography>;
         break;
       case 'Store 20000':
@@ -121,10 +121,10 @@ class App extends Component {
                 </Typography>
               </Grid>
               <Grid item xs={12} sm={6}>
-                <Tabs>
-                  <Tab label={"Week"}/>
+                <Tabs initialSelectedIndex={1}>
+                  <Tab label={"Week"} disabled/>
                   <Tab label={"Month"}/>
-                  <Tab label={"Year"}/>
+                  <Tab label={"Year"} disabled/>
                 </Tabs>
               </Grid>
             </Grid>
